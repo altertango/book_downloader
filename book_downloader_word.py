@@ -50,7 +50,7 @@ def get_chapter(chapter):
 it=0
 chapters=[]
 n_c=novel_url
-while (it<3 and not n_c in chapters):
+while (it<300 and not n_c in chapters):
     print 
     chapters.append(n_c)
     c_n, text, p_c,n_c = get_chapter(n_c)
